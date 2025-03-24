@@ -1,0 +1,42 @@
+{
+  "name": "Quản Lý Hàng Hóa",
+  "short_name": "QuảnLýHàng",
+  "description": "Ứng dụng quản lý hàng hóa với tính năng quét mã barcode, QR code",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#4285f4",
+  "theme_color": "#4285f4",
+  "icons": [
+    {
+      "src": "https://cdn.jsdelivr.net/npm/feather-icons/dist/icons/package.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/npm/feather-icons/dist/icons/package.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "orientation": "any",
+  "categories": ["productivity", "utilities", "business"],
+  "shortcuts": [
+    {
+      "name": "Quét Mã",
+      "short_name": "Quét",
+      "description": "Quét mã barcode hoặc QR code",
+      "url": "index.html?view=scan"
+    },
+    {
+      "name": "Xem Kho Hàng",
+      "short_name": "Kho",
+      "description": "Xem danh sách hàng hóa trong kho",
+      "url": "index.html?view=inventory"
+    }
+  ],
+  "screenshots": [],
+  "related_applications": [],
+  "prefer_related_applications": false
+}
